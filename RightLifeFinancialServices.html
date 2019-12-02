@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Right Life</title>
+  <link rel="stylesheet" type="text/css" href="Right Life.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+  <nav>
+    <a href="./index.html">Home</a>
+    <a href="./aboutme.html">About Me</a>
+  </nav>
+  <h1>Right Life: Financial Advice</h1>
+  <nav>
+    <ul>
+      <li><a href="#about right life">About Right Life</a></li>
+	  <li><a href="#about right life">Services</a></li>
+      <li><a href="#scheduling">Scheduling</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  
+  <div class="aboutrightlife"><div class="inner">
+    <h2>About Right Life</h2>
+    <p>
+	Among other things, a good life is about being happy, feeling secure and having as much fun as possible. 
+	If you make the right life choices most of the time, a good life will come naturally. 
+	That’s how Right Life came to be the name. 
+	Silly? Maybe. But it’s helped guide me in my life choices, including financial decisions.<br /><br />
+	Right Life was designed to help people get their financial house in order. Financial stress is the leading cause of stress for Americans. 
+	Financial stress has a negative impact on everything-job performance, physical and mental health and relationships. 
+	Our schools don’t teach enough about personal finances, it’s not talked about or taught enough in the home, and financial companies are out to make money. 
+	By the time adulthood comes around, most people are confused on what to do or worse, have given up on being financially secure and are just trying to get by. 
+	Getting by isn’t good enough. We all work too hard to just get by. 
+	We should be striving for a good life…being happy, feeling secure and having as much fun as possible, while keeping our financial house in order.<br /><br /> 
+	I’ve been helping people with money and financial decisions for more than 20 years. 
+	I’ve worked to help people build and repair credit, develop attainable budgets, select the right financial products and services, and a number of other things. 
+	Every situation is different. We all have different goals. We all have different needs. That’s why each plan is different. A plan will be designed for you and your needs.
+	</p>
+	</div></div>
+  
+   <div class="services"><div class="middle">
+    <h2>Services</h2>
+    <p style="text-align:left">
+		<strong>Credit Building Services</strong> <br></br>
+		Low credit scores cost people hundreds, often times thousands, of dollars a year in banking fees, higher interest rates and costly services. 
+		<br></br>Credit is considered for the following:
+
+	</p>
+		<ul style="text-align:left">
+			<li>Opening new credit union and bank accounts</li>
+			<li>Obtaining insurance</li>
+			<li>Employment</li>
+			<li>Applying for loans like car loans, mortgages and credit cards</li>
+			</ul>
+			
+	<p style="text-align:left">
+	
+	This is one hour appointment will teach you and assist you in repairing and/or build your credit. 
+	Repairing your credit will save you money over your lifetime by paying lower fees, lower insurance rates and reduced loan rates. 
+	
+	</p>
+	
+	<p style="text-align:center">
+	
+	$59.00 for a one hour appointment to build and/or repair credit. 
+	
+	</p>
+	
+	<p style="text-align:left">
+		<strong>Budgeting and Financial Goal Planning</strong> <br></br>
+		Without a plan, it’s impossible to reach goals, especially money related goals. 
+		Together, we will work out a plan and budget that will allow you to save, allocate funds for  retirement saving, payoff debts and reduce financial stress. 
+		Funds will be allocated for fun, too. It is a win -win plan.<br></br>
+		The three 1-hour sessions will be used to determine your current financial state, uncover financial goals, develop an action plan, and follow up on progress. 
+		Additionally, your action plan will include information on how to build and/or repair credit. 
+
+	</p>
+	
+	<p style="text-align:center">
+	
+	$229.00 for three 1-hours sessions.
+	
+	</p>
+	
+	<p style="text-align:left">
+		<strong>Not sure what you need?</strong> <br></br>
+		Let’s talk about your situation. Together we can decide how to move forward so you can meet your goals.<br></br>
+		*Please ask about military, police and firefighter discounts. 
+		It’s just a small way to say thank you for your service. 
+		Recent graduate discounts are available, also. 
+		Let’s set you up to succeed!
+		
+	</p>
+	
+	
+	</div></div> 
+  
+  
+  <div class="scheduling"><div class="end">
+    <h2>Scheduling</h2>
+    
+	<p>If you would like to puruse business with Right Life, please feel free to view my availability here and find an appropriate time slot that works for you.<br></br>
+ 
+	</p>
+	
+    <a href="https://calendar.google.com/calendar/r?pli=1" target="_blank">View My Availability Here</a>
+
+  </div>
+  
+  <div class="contact">
+    <h2>Contact Form</h2>
+    <p>Once you find availability that works best for you, feel free to fill out this form to contact me.<br></br> 
+	If the form doesn't seem to be working, please reach me at *insert email here* 
+	</p>
+  </div>
+  
+  <div class="contact-form">
+  
+		<?= $result; ?>
+		
+		<form id="contact-form" method="post" action="Right Life.php">
+			<input name="name" type="text" class="form-control" placeholder="Your Name" required><br>
+			
+			<input name="email" type="text" class="form-control" placeholder="Your Email" required><br>
+			
+			<input name="message" type="text" class="form-control" placeholder="Your Message" rows="4" required=""></textarea><br>
+			
+			<input type="submit" class="form-control submit" value="SEND MESSAGE">
+		</form>
+	</div>
+  
+</body>
+
+</html>

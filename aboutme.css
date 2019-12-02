@@ -1,0 +1,9 @@
+body{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background-image: linear-gradient(rgba(0,0,150,0.1),rgba(0,0,50,0.1)),url('wood1.jpg');
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif;
+}
